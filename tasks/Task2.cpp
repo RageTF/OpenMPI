@@ -6,52 +6,55 @@
 #include "mpi.h"
 
 Task2::Task2(int argc, char **argv) : Task(argc, argv) {
+    matrix = nullptr;
+}
 
+Task2::~Task2() {
+    if (matrix != nullptr) {
+        for (int i = 0; i < numProcess -1 ; i++) {
+            delete[] matrix[i];
+        }
+        delete[] matrix;
+    }
 }
 
 void Task2::run() {
     int size = 200;
     int ready = 0;
-    if(rank==0){
-        long array[numProcess-1][size];
-        for (int k = 0; k < numProcess-1; ++k) {
-            for(int i = 0;i<size;i++){
-                array[k][i]=random()%100;
-                printf("%li,",array[k][i]);
-                std::cout<<array[k][i]<<", ";
-            }
-            printf("\n");
-        }
+    if (rank == 0) {
+        matrix = new int *[numProcess - 1];
+        fillMatrix(matrix, numProcess - 1, size, 100);
+        printMatrix(matrix, numProcess - 1, size);
 
-        for(int i=1;i<numProcess;i++){
-            MPI_Send(array[i-1],size,MPI_LONG,i,0,MPI_COMM_WORLD);
+        for (int i = 1; i < numProcess; i++) {
+            MPI_Send(matrix[i - 1], size, MPI_INT, i, 0, MPI_COMM_WORLD);
         }
         ready = 1;
-        MPI_Bcast(&ready,1,MPI_INT,0,MPI_COMM_WORLD);
-        long maxArray [numProcess-1];
-        for(int i=1;i<numProcess;i++){
+        MPI_Bcast(&ready, 1, MPI_INT, 0, MPI_COMM_WORLD);
+        int maxArray[numProcess - 1];
+        for (int i = 1; i < numProcess; i++) {
             MPI_Status status{};
-            MPI_Recv(maxArray+i-1,1,MPI_LONG,i,0,MPI_COMM_WORLD,&status);
+            MPI_Recv(maxArray + i - 1, 1, MPI_INT, i, 0, MPI_COMM_WORLD, &status);
         }
-        long max=maxArray[0];
-        for(int i=1;i<numProcess-1;i++){
-            if(maxArray[i]>max)
-                max=maxArray[i];
+        int max = maxArray[0];
+        for (int i = 1; i < numProcess - 1; i++) {
+            if (maxArray[i] > max)
+                max = maxArray[i];
         }
-        printf("Max element = %li",max);
-    } else{
-        long array[size];
+        printf("Max element = %i", max);
+    } else {
+        int array[size];
         MPI_Status status{};
-        MPI_Recv(array,size,MPI_LONG,0,0,MPI_COMM_WORLD,&status);
-        long max = array[0];
-        for(int i=1;i<size;i++){
-            if(array[i]>max){
-                max=array[i];
+        MPI_Recv(array, size, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
+        int max = array[0];
+        for (int i = 1; i < size; i++) {
+            if (array[i] > max) {
+                max = array[i];
             }
         }
-        MPI_Bcast(&ready,1,MPI_INT,0,MPI_COMM_WORLD);
-        if(ready==1){
-            MPI_Send(&max,1,MPI_LONG,0,0,MPI_COMM_WORLD);
+        MPI_Bcast(&ready, 1, MPI_INT, 0, MPI_COMM_WORLD);
+        if (ready == 1) {
+            MPI_Send(&max, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
         }
     }
 }

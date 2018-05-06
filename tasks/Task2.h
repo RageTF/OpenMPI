@@ -11,9 +11,11 @@
 class Task2 : public Task {
 public:
     Task2(int argc, char **argv);
-
-public:
+    ~Task2();
     void run() override;
+
+private:
+    int **matrix;
 };
 
 
