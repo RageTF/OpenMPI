@@ -6,55 +6,38 @@
 #include "mpi.h"
 
 Task2::Task2(int argc, char **argv) : Task(argc, argv) {
-    matrix = nullptr;
+    vector = nullptr;
 }
 
 Task2::~Task2() {
-    if (matrix != nullptr) {
-        for (int i = 0; i < numProcess -1 ; i++) {
-            delete[] matrix[i];
-        }
-        delete[] matrix;
+    if (vector != nullptr) {
+        delete[] vector;
     }
 }
 
 void Task2::run() {
-    int size = 200;
-    int ready = 0;
-    if (rank == 0) {
-        matrix = new int *[numProcess - 1];
-        fillMatrix(matrix, numProcess - 1, size, 100);
-        printMatrix(matrix, numProcess - 1, size);
+    int x[10];
+    int N = 10;
+    int result;
 
-        for (int i = 1; i < numProcess; i++) {
-            MPI_Send(matrix[i - 1], size, MPI_INT, i, 0, MPI_COMM_WORLD);
-        }
-        ready = 1;
-        MPI_Bcast(&ready, 1, MPI_INT, 0, MPI_COMM_WORLD);
-        int maxArray[numProcess - 1];
-        for (int i = 1; i < numProcess; i++) {
-            MPI_Status status{};
-            MPI_Recv(maxArray + i - 1, 1, MPI_INT, i, 0, MPI_COMM_WORLD, &status);
-        }
-        int max = maxArray[0];
-        for (int i = 1; i < numProcess - 1; i++) {
-            if (maxArray[i] > max)
-                max = maxArray[i];
-        }
-        printf("Max element = %i", max);
-    } else {
-        int array[size];
-        MPI_Status status{};
-        MPI_Recv(array, size, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
-        int max = array[0];
-        for (int i = 1; i < size; i++) {
-            if (array[i] > max) {
-                max = array[i];
-            }
-        }
-        MPI_Bcast(&ready, 1, MPI_INT, 0, MPI_COMM_WORLD);
-        if (ready == 1) {
-            MPI_Send(&max, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
-        }
+    int elements_per_proc = N / numProcess;
+
+    int localmax;
+
+    if (rank == 0) {
+        vector = new int[N];
+        fillArray(vector, N, 100);
+        printArray(vector, N);
     }
+
+    MPI_Scatter(x, elements_per_proc, MPI_INT,
+                vector, elements_per_proc, MPI_INT, 0, MPI_COMM_WORLD);
+
+    localmax = 0;
+    for (int i = 0; i < elements_per_proc; i++)
+        if (vector[i] > localmax) localmax = vector[i];
+
+    MPI_Reduce(&localmax, &result, 1, MPI_INT, MPI_MAX, 0, MPI_COMM_WORLD);
+    if (rank == 0)
+        printf("\nMax = %d", result);
 }

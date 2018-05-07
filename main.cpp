@@ -1,10 +1,15 @@
 #include <iostream>
 #include <mpi.h>
 #include "tasks/Task2.h"
+#include "tasks/Task3.h"
+#include "tasks/Task4.h"
+
 using namespace std;
 int main(int argc, char** argv){
-    Task2 task2(argc,argv);
-    task2.run();
+    /*Task2 task2(argc,argv);
+    task2.run();*/
+    Task4 task4(argc,argv);
+    task4.run();
     /*int size =4;
     cout<<argc<<endl;
     MPI_Init(&size,&argv);

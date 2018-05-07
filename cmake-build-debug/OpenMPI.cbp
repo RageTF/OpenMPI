@@ -95,6 +95,24 @@
 		<Unit filename="/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task2.h">
 			<Option target="OpenMPI"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.cpp">
+			<Option target="OpenMPI"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.h">
+			<Option target="OpenMPI"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.cpp">
+			<Option target="OpenMPI"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.h">
+			<Option target="OpenMPI"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task5.cpp">
+			<Option target="OpenMPI"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task5.h">
+			<Option target="OpenMPI"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

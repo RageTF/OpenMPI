@@ -7,6 +7,9 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/main.cpp" "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/cmake-build-debug/CMakeFiles/OpenMPI.dir/main.cpp.o"
   "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task.cpp" "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/cmake-build-debug/CMakeFiles/OpenMPI.dir/tasks/Task.cpp.o"
   "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task2.cpp" "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/cmake-build-debug/CMakeFiles/OpenMPI.dir/tasks/Task2.cpp.o"
+  "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.cpp" "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/cmake-build-debug/CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o"
+  "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.cpp" "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/cmake-build-debug/CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o"
+  "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task5.cpp" "/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/cmake-build-debug/CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

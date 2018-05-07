@@ -204,6 +204,87 @@ tasks/Task2.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task2.cpp.s
 .PHONY : tasks/Task2.cpp.s
 
+tasks/Task3.o: tasks/Task3.cpp.o
+
+.PHONY : tasks/Task3.o
+
+# target to build an object file
+tasks/Task3.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o
+.PHONY : tasks/Task3.cpp.o
+
+tasks/Task3.i: tasks/Task3.cpp.i
+
+.PHONY : tasks/Task3.i
+
+# target to preprocess a source file
+tasks/Task3.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.i
+.PHONY : tasks/Task3.cpp.i
+
+tasks/Task3.s: tasks/Task3.cpp.s
+
+.PHONY : tasks/Task3.s
+
+# target to generate assembly for a file
+tasks/Task3.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.s
+.PHONY : tasks/Task3.cpp.s
+
+tasks/Task4.o: tasks/Task4.cpp.o
+
+.PHONY : tasks/Task4.o
+
+# target to build an object file
+tasks/Task4.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o
+.PHONY : tasks/Task4.cpp.o
+
+tasks/Task4.i: tasks/Task4.cpp.i
+
+.PHONY : tasks/Task4.i
+
+# target to preprocess a source file
+tasks/Task4.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.i
+.PHONY : tasks/Task4.cpp.i
+
+tasks/Task4.s: tasks/Task4.cpp.s
+
+.PHONY : tasks/Task4.s
+
+# target to generate assembly for a file
+tasks/Task4.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.s
+.PHONY : tasks/Task4.cpp.s
+
+tasks/Task5.o: tasks/Task5.cpp.o
+
+.PHONY : tasks/Task5.o
+
+# target to build an object file
+tasks/Task5.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o
+.PHONY : tasks/Task5.cpp.o
+
+tasks/Task5.i: tasks/Task5.cpp.i
+
+.PHONY : tasks/Task5.i
+
+# target to preprocess a source file
+tasks/Task5.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.i
+.PHONY : tasks/Task5.cpp.i
+
+tasks/Task5.s: tasks/Task5.cpp.s
+
+.PHONY : tasks/Task5.s
+
+# target to generate assembly for a file
+tasks/Task5.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.s
+.PHONY : tasks/Task5.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +303,15 @@ help:
 	@echo "... tasks/Task2.o"
 	@echo "... tasks/Task2.i"
 	@echo "... tasks/Task2.s"
+	@echo "... tasks/Task3.o"
+	@echo "... tasks/Task3.i"
+	@echo "... tasks/Task3.s"
+	@echo "... tasks/Task4.o"
+	@echo "... tasks/Task4.i"
+	@echo "... tasks/Task4.s"
+	@echo "... tasks/Task5.o"
+	@echo "... tasks/Task5.i"
+	@echo "... tasks/Task5.s"
 .PHONY : help
 
 

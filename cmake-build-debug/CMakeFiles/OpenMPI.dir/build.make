@@ -129,11 +129,86 @@ CMakeFiles/OpenMPI.dir/tasks/Task2.cpp.o.provides: CMakeFiles/OpenMPI.dir/tasks/
 CMakeFiles/OpenMPI.dir/tasks/Task2.cpp.o.provides.build: CMakeFiles/OpenMPI.dir/tasks/Task2.cpp.o
 
 
+CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o: CMakeFiles/OpenMPI.dir/flags.make
+CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o: ../tasks/Task3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o -c /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.cpp
+
+CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.cpp > CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.i
+
+CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.cpp -o CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.s
+
+CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o.requires
+
+CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o.provides: CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o.provides
+
+CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o.provides.build: CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o
+
+
+CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o: CMakeFiles/OpenMPI.dir/flags.make
+CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o: ../tasks/Task4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o -c /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.cpp
+
+CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.cpp > CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.i
+
+CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.cpp -o CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.s
+
+CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o.requires
+
+CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o.provides: CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o.provides
+
+CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o.provides.build: CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o
+
+
+CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o: CMakeFiles/OpenMPI.dir/flags.make
+CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o: ../tasks/Task5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o -c /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task5.cpp
+
+CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task5.cpp > CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.i
+
+CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task5.cpp -o CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.s
+
+CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o.requires:
+
+.PHONY : CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o.requires
+
+CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o.provides: CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o.requires
+	$(MAKE) -f CMakeFiles/OpenMPI.dir/build.make CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o.provides.build
+.PHONY : CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o.provides
+
+CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o.provides.build: CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o
+
+
 # Object files for target OpenMPI
 OpenMPI_OBJECTS = \
 "CMakeFiles/OpenMPI.dir/main.cpp.o" \
 "CMakeFiles/OpenMPI.dir/tasks/Task.cpp.o" \
-"CMakeFiles/OpenMPI.dir/tasks/Task2.cpp.o"
+"CMakeFiles/OpenMPI.dir/tasks/Task2.cpp.o" \
+"CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o" \
+"CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o" \
+"CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o"
 
 # External object files for target OpenMPI
 OpenMPI_EXTERNAL_OBJECTS =
@@ -141,6 +216,9 @@ OpenMPI_EXTERNAL_OBJECTS =
 OpenMPI.exe: CMakeFiles/OpenMPI.dir/main.cpp.o
 OpenMPI.exe: CMakeFiles/OpenMPI.dir/tasks/Task.cpp.o
 OpenMPI.exe: CMakeFiles/OpenMPI.dir/tasks/Task2.cpp.o
+OpenMPI.exe: CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o
+OpenMPI.exe: CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o
+OpenMPI.exe: CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o
 OpenMPI.exe: CMakeFiles/OpenMPI.dir/build.make
 OpenMPI.exe: /usr/lib/libmpi_cxx.dll.a
 OpenMPI.exe: /usr/lib/libmpi.dll.a
@@ -149,7 +227,7 @@ OpenMPI.exe: /usr/lib/libopen-pal.dll.a
 OpenMPI.exe: /usr/lib/libm.a
 OpenMPI.exe: /usr/lib/w32api/libgdi32.a
 OpenMPI.exe: CMakeFiles/OpenMPI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable OpenMPI.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable OpenMPI.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenMPI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -160,6 +238,9 @@ CMakeFiles/OpenMPI.dir/build: OpenMPI.exe
 CMakeFiles/OpenMPI.dir/requires: CMakeFiles/OpenMPI.dir/main.cpp.o.requires
 CMakeFiles/OpenMPI.dir/requires: CMakeFiles/OpenMPI.dir/tasks/Task.cpp.o.requires
 CMakeFiles/OpenMPI.dir/requires: CMakeFiles/OpenMPI.dir/tasks/Task2.cpp.o.requires
+CMakeFiles/OpenMPI.dir/requires: CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o.requires
+CMakeFiles/OpenMPI.dir/requires: CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o.requires
+CMakeFiles/OpenMPI.dir/requires: CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o.requires
 
 .PHONY : CMakeFiles/OpenMPI.dir/requires
 

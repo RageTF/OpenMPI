@@ -13,6 +13,10 @@ mpi.h
 -
 tasks/Task2.h
 /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task2.h
+tasks/Task3.h
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.h
+tasks/Task4.h
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.h
 
 /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task.cpp
 Task.h
@@ -33,6 +37,28 @@ mpi.h
 /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/mpi.h
 
 /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task2.h
+Task.h
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task.h
+
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.cpp
+random
+-
+Task3.h
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.h
+mpi.h
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/mpi.h
+
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.h
+Task.h
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task.h
+
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.cpp
+Task4.h
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.h
+mpi.h
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/mpi.h
+
+/cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.h
 Task.h
 /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task.h
 

@@ -13,7 +13,6 @@ public:
 
 private:
     void init(int argc, char **argv);
-
     void release();
 
 protected:

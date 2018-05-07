@@ -5,6 +5,8 @@ CMakeFiles/OpenMPI.dir/main.cpp.o
  /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/main.cpp
  /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task.h
  /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task2.h
+ /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.h
+ /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.h
 CMakeFiles/OpenMPI.dir/tasks/Task.cpp.o
  /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task.cpp
  /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task.h
@@ -12,3 +14,11 @@ CMakeFiles/OpenMPI.dir/tasks/Task2.cpp.o
  /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task.h
  /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task2.cpp
  /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task2.h
+CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o
+ /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task.h
+ /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.cpp
+ /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task3.h
+CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o
+ /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task.h
+ /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.cpp
+ /cygdrive/c/Users/m_200/CLionProjects/OpenMPI/tasks/Task4.h
