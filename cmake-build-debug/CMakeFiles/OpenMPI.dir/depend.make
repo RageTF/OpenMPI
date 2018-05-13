@@ -6,6 +6,7 @@ CMakeFiles/OpenMPI.dir/main.cpp.o: ../tasks/Task.h
 CMakeFiles/OpenMPI.dir/main.cpp.o: ../tasks/Task2.h
 CMakeFiles/OpenMPI.dir/main.cpp.o: ../tasks/Task3.h
 CMakeFiles/OpenMPI.dir/main.cpp.o: ../tasks/Task4.h
+CMakeFiles/OpenMPI.dir/main.cpp.o: ../tasks/Task5.h
 
 CMakeFiles/OpenMPI.dir/tasks/Task.cpp.o: ../tasks/Task.cpp
 CMakeFiles/OpenMPI.dir/tasks/Task.cpp.o: ../tasks/Task.h
@@ -21,4 +22,8 @@ CMakeFiles/OpenMPI.dir/tasks/Task3.cpp.o: ../tasks/Task3.h
 CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o: ../tasks/Task.h
 CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o: ../tasks/Task4.cpp
 CMakeFiles/OpenMPI.dir/tasks/Task4.cpp.o: ../tasks/Task4.h
+
+CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o: ../tasks/Task.h
+CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o: ../tasks/Task5.cpp
+CMakeFiles/OpenMPI.dir/tasks/Task5.cpp.o: ../tasks/Task5.h
 

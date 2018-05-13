@@ -11,8 +11,10 @@
 class Task5 : public Task {
 public:
     Task5(int argc, char **argv);
+    ~Task5();
     void run() override ;
 
+private:
 };
 
 
