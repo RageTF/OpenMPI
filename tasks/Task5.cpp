@@ -46,11 +46,11 @@ void Task5::run() {
         int arrayBI = 0;
         for (int i = 0; i < numProcess; i++) {
             if (i == numProcess - 1) {
-                countForProcess = (size - countForProcess*i);
-                for (int k = 0; k < countForProcess; k++) {
+                int count = (size - countForProcess*i);
+                for (int k = 0; k < count; k++) {
                     buff[buffI++] = a[arrayAI++];
                 }
-                for (int k = 0; k < countForProcess; k++) {
+                for (int k = 0; k < count; k++) {
                     buff[buffI++] = b[arrayBI++];
                 }
             } else {
